@@ -1,0 +1,79 @@
+ /* Estilos para o menu e conteúdo principal (mantidos do exemplo anterior) */
+ .menu {   /* Estilos para o menu */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #333;
+  height: 60px;
+  border-radius: 5px;
+}
+
+.menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  display: inline-block;
+  margin: 0 10px;
+  position: relative;
+}
+
+.menu a {
+  text-decoration: none;
+  color: lightblue;;
+  padding: 10px;
+  font-weight: bold;
+  transition: background-color 0.3s;
+  border-radius: 5px;
+}
+
+.menu a:hover {
+  background-color: #555;
+}
+
+.submenu li {
+  border-bottom: 2px solid rgb(12, 2, 2); /* Linha black no submenu. */
+}
+
+.submenu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #555;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.menu li:hover .submenu {
+  display: block;
+}
+
+.submenu a {
+  display: block;
+  color: lightblue;;
+  text-decoration: none;
+  padding: 5px;
+}
+
+.content {
+  margin: 5px;
+  padding: 200px;
+  background-color: #EEE;
+  border-radius: 5px;
+  margin-top: 5px;
+  margin-left: 2px;
+  margin-right: 1px;
+}
+
+/* Estilos para o rodapé */
+.footer {
+  background-color: #333;
+  color: #FFF;
+  padding: 5px;
+  text-align: center;
+  border-radius: 5px;
+}
+
