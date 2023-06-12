@@ -112,7 +112,7 @@ body {
   
   .animation {
     animation-name: example-animation;
-    animation-duration: 10s;
+    animation-duration: 15s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
   }
